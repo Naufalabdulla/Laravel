@@ -27,7 +27,7 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Products</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
+            <a href="{{route('sell')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Shift</a>
           </div><div class="col p-3 mx-2 my1">
@@ -35,7 +35,7 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('customers.index')}}" class="text-white text-decoration-none fw-semibold">Contact</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Order</a>
+            <a href="{{route('orders')}}" class="text-white text-decoration-none fw-semibold">Order</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Payment</a>
           </div><div class="col p-3 mx-2 my1">

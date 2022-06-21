@@ -16,6 +16,21 @@ use App\Http\Controllers\MemberController;
 
 Auth::routes();
 
+$product = [
+    1 => [
+        'name' => 'baju',
+        'image' => '....'
+    ],
+    2 => [
+        'name' => 'baju',
+        'image' => '....'
+    ],
+    3 => [
+        'name' => 'baju',
+        'image' => '....'
+    ]
+    ];
+
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource('/customers', MemberController::class);
@@ -27,3 +42,11 @@ Route::get('/test', function(){
 Route::get('/shows', function(){
     return view('partials.show');
 })->name('show');
+
+Route::get('/orders', function(){
+    return view('order');
+})->name('orders');
+
+Route::get('/sell', function(){
+    return view('sells');
+})->name('sell');
