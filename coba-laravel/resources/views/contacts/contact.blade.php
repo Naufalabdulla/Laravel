@@ -20,16 +20,17 @@
 @endsection
 @section('container')
 
-<ul class="nav nav-tabs" id="myTab" role="tablist">
+<ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
     <li class="nav-item" role="presentation">
       <button class="nav-link active" id="customer-tab" data-bs-toggle="tab" data-bs-target="#customer-tab-pane" type="button" role="tab" aria-controls="customer-tab-pane" aria-selected="flase">Customer</button>
     </li>
     <li class="nav-item" role="presentation">
       <button class="nav-link" id="supplier-tab" data-bs-toggle="tab" data-bs-target="#supplier-tab-pane" type="button" role="tab" aria-controls="supplier-tab-pane" aria-selected="false">Suppliers</button>
     </li>
-    <li class="nav-item" role="presentation">
+    <li class="nav-item flex-grow-1" role="presentation">
       <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Sales</button>
     </li>
+    <img src="img/burger.svg" alt="">
 </ul>
   <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade show active" id="customer-tab-pane" role="tabpanel" aria-labelledby="customer-tab" tabindex="0">

@@ -50,3 +50,23 @@ Route::get('/orders', function(){
 Route::get('/sell', function(){
     return view('sells');
 })->name('sell');
+
+Route::get('/payment', function(){
+    return view('payment');
+})->name('payment');
+
+Route::get('/adjustment', function(){
+    return view('adjustment');
+})->name('adjustment');
+
+Route::get('/logistic', function(){
+    return view('logistic');
+})->name('logistics');
+
+Route::get('/fullfillment', function(){
+    return view('fullfill');
+})->name('fullfill');
+
+Route::get('/shift', function(){
+    return view('shift');
+})->name('shift');
