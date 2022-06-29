@@ -2,32 +2,42 @@
 
 @section('title', 'Sale')
 @section('extra')
-
+<div class="hstack gap-2">
+<img src="img/refresh.svg" alt="" style="max-width: 40px">
+<img src="img/coupon.svg" alt="" style="max-width: 25px">
+<img src="img/gift.svg" alt="" style="max-width: 25px">
+<img src="img/cart.svg" alt="" style="max-width: 40px">
+</div>
 @endsection
 @section('container')
 
-<div class="container border-bottom hstack row gx-3 gy-2 p-2 mb-2">
-    <img src="img/home.svg" alt="" style="max-width: 40px">
+<div class="container d-flex border-bottom hstack row gx-1 gy-2 p-2 mb-2">
+    <img src="img/home.svg" alt="" style="max-width: 24px">
     <div class="col-2">
       <div class="border px-2 py-1">Outlet</div>    
     </div>    
   
-    <div class="col-2">
+    <img src="img/calender.svg" alt="" style="max-width: 30px">
+    <div class="col-1">
       <div class="border px-2 py-1">date</div>    
     </div> 
-  
-    <div class="col-2">
+
+    <img src="img/hastag.svg" alt="" style="max-width: 24px">
+    <div class="col-1">
       <div class="border px-2 py-1">ip</div>    
     </div>
   
-    <img src="img/user.svg" alt="" style="max-width: 40px">
-    <div class="col-2">
+    <img src="img/user.svg" alt="" style="max-width: 24px">
+    <div class="col-1">
       <div class="border px-2 py-1">search</div>    
     </div>
+    <img src="img/add2.svg" alt="" style="max-width: 24px">
   
-    <div class="col-2">
+    <div class="col-1">
       <div class="border px-2 py-1">person</div>    
     </div> 
+    <div class="col-1 flex-grow-1"> </div>
+    <img src="img/burger.svg" alt="" style="max-width: 24px">
 </div>
   
 <div class="row g-3">
@@ -49,7 +59,7 @@
 
             <div class="container tab-content" id="mytabcontent">
                 <div class="tab-pane fade show active" id="Top-tab-pane" role="tabpanel" aria-labelledby="Top-tab" tabindex="0">
-                    <div class="row g-4">
+                    <div class="row gx-4 gy-2">
                         {{-- @foreach ($contacts as $item) --}}
                             <div class="col-4">
                                 <div class="border" style="max-height: 100px">
@@ -61,7 +71,7 @@
                 </div>
                 
                 <div class="tab-pane fade" id="Shoes-tab-pane" role="tabpanel" aria-labelledby="Shoes-tab" tabindex="0">
-                    <div class="row g-4">
+                    <div class="row gx-4 gy-2">
                         {{-- @foreach ($contacts as $item) --}}
                             <div class="col-4">
                                 <div class="border" style="max-height: 100px">
@@ -73,7 +83,7 @@
                 </div>
 
                 <div class="tab-pane fade" id="Acc-tab-pane" role="tabpanel" aria-labelledby="Acc-tab" tabindex="0">
-                    <div class="row g-4">
+                    <div class="row gx-4 gy-2">
                         {{-- @foreach ($contacts as $item) --}}
                             <div class="col-4">
                                 <div class="border" style="max-height: 100px">
@@ -93,6 +103,8 @@
                 <img src="img/cart.svg" alt="" style="max-width: 20px">
                 <div>Current sale</div>
                 <input type="text" class="form-control form-control-sml" placeholder="Search" aria-label="Search" style="max-width: 250px">
+                <img src="img/upload.svg" alt="" style="max-width: 30px">
+                <img src="img/add3.svg" alt="" style="max-width: 30px">
             </div>
 
             <div class="border d-flex bg-light p-2">
