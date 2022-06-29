@@ -2,7 +2,11 @@
 
 @section('title', 'Adjustment')
 @section('extra')
-    
+<input type="radio" class="btn-check" name="btnradio" id="btnradio1"  checked>
+<label class="btn btn-outline-secondary" for="btnradio1">Import</label>
+<form action="{{ route('sell') }}">
+<button class="btn btn-success me-4">New</button>
+</form>
 @endsection
 @section('container')
 <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
@@ -28,16 +32,21 @@
 
     {{-- @foreach ($Supplies as $item) --}}
         <div class="row border-bottom p-2 mx-2 mb-1">
-            <div>
+          <div class="col-6">
             <input class="form-check-input" type="checkbox" value="" id="check">
             <label for="check"> 
-            </div>
-              <div class="col-6">dummy</div>
-              <div class="col-4">2</div>
-              <div class="col-1">277</div>
+              <div>dummy</div>
             </label>
+          </div>
+          <div class="col-5">2</div>
+          <div class="col-1">277</div>
         </div>          
      {{-- @endforeach   --}}
+  </div>
+
+
+  <div class="tab-pane fade" id="stock-tab-pane" role="tabpanel" aria-labelledby="stock-tab" tabindex="0">
+    @include('partials.csv')
   </div>
 </div>
 @endsection

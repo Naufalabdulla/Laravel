@@ -2,7 +2,9 @@
 
 @section('title', 'My Shift')
 @section('extra')
-    
+<form action="{{ route('sell') }}">
+  <button class="btn btn-outline-secondary me-4">Back to POS</button>
+</form>
 @endsection
 @section('container')
 <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">

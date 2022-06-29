@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'logistic')
+@section('title', 'Fullfillment')
 @section('extra')
   <input type="radio" class="btn-check" name="btnradio" id="btnradio1"  checked>
   <label class="btn btn-outline-secondary" for="btnradio1">Import</label>

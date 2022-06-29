@@ -21,17 +21,17 @@
         <h4 class="text-light my-2 me-3">Sentra</h4>
       </div>
       
-      <div>
+      <div class="">
           <div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Dashboard</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Products</a>
+            <a href="{{route('product')}}" class="text-white text-decoration-none fw-semibold">Products</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('sell')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('shift')}}" class="text-white text-decoration-none fw-semibold">Shift</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Reports</a>
+            <a href="{{route('report')}}" class="text-white text-decoration-none fw-semibold">Reports</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('customers.index')}}" class="text-white text-decoration-none fw-semibold">Contact</a>
           </div><div class="col p-3 mx-2 my1">
@@ -39,9 +39,9 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('payment')}}" class="text-white text-decoration-none fw-semibold">Payment</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Debt</a>
+            <a href="{{route('debt')}}" class="text-white text-decoration-none fw-semibold">Debt</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Inventory</a>
+            <a href="{{route('invent')}}" class="text-white text-decoration-none fw-semibold">Inventory</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('adjustment')}}" class="text-white text-decoration-none fw-semibold">Adjusment</a>
           </div><div class="col p-3 mx-2 my1">

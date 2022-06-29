@@ -70,3 +70,23 @@ Route::get('/fullfillment', function(){
 Route::get('/shift', function(){
     return view('shift');
 })->name('shift');
+
+Route::get('/promotion', function(){
+    return view('promotion');
+})->name('promotion');
+
+Route::get('/debt', function(){
+    return view('debt');
+})->name('debt');
+
+Route::get('/reports',function(){
+    return view('report');
+})->name('report');
+
+Route::get('/inventory', function(){
+    return view('inventory');
+})->name('invent');
+
+Route::get('/product', function(){
+    return view('product');
+})->name('product');

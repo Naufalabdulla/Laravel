@@ -6,27 +6,27 @@
 @endsection
 @section('container')
 
-<div class="container border-bottom hstack row g-3 p-2 mb-2">
+<div class="container border-bottom hstack row gx-3 gy-2 p-2 mb-2">
     <img src="img/home.svg" alt="" style="max-width: 40px">
     <div class="col-2">
-      <div class="border p-1">Outlet</div>    
+      <div class="border px-2 py-1">Outlet</div>    
     </div>    
   
     <div class="col-2">
-      <div class="border p-1">date</div>    
+      <div class="border px-2 py-1">date</div>    
     </div> 
   
     <div class="col-2">
-      <div class="border p-1">ip</div>    
+      <div class="border px-2 py-1">ip</div>    
     </div>
   
     <img src="img/user.svg" alt="" style="max-width: 40px">
     <div class="col-2">
-      <div class="border p-1">search</div>    
+      <div class="border px-2 py-1">search</div>    
     </div>
   
     <div class="col-2">
-      <div class="border p-1">person</div>    
+      <div class="border px-2 py-1">person</div>    
     </div> 
 </div>
   
@@ -89,7 +89,7 @@
 
     <div class="col-5">
         <div class="border">
-            <div class="container align-items-center hstack gap-2 bg-primary opacity-25 p-2">
+            <div class="container align-items-center hstack gap-2 p-2">
                 <img src="img/cart.svg" alt="" style="max-width: 20px">
                 <div>Current sale</div>
                 <input type="text" class="form-control form-control-sml" placeholder="Search" aria-label="Search" style="max-width: 250px">

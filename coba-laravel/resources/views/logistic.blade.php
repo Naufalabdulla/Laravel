@@ -2,6 +2,8 @@
 
 @section('title', 'logistic')
 @section('extra')
+<input type="radio" class="btn-check" name="btnradio" id="btnradio1"  checked>
+<label class="btn btn-outline-secondary" for="btnradio1">Import</label>
 <form action="{{ route('sell') }}">
     <button class="btn btn-success me-4">New</button>
 </form>

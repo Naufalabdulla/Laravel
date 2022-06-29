@@ -2,7 +2,8 @@
 
 @section('title', 'payment')
 @section('extra')
-    
+<input type="radio" class="btn-check" name="btnradio" id="btnradio1"  checked>
+<label class="btn btn-outline-secondary" for="btnradio1">Import</label>
 @endsection
 @section('container')
 <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
